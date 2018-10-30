@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!----
+       方法:
+       --------------------
+       .hide();                 隱藏
+       .show();                 顯示
+       .text();             　　存取指定元素中的文字內容。
+       .append('標籤或物件');   追加標籤
+       .remove();               刪除指定的元素
+       .bind();                 綁定事件
+       .unbind();               解除綁定
+       .val();                  讀取 input 標籤的輸入值
+       .attr();
+       .css();
+    --->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script>
+        var abc = "<h2>Hello</h2>";
+   $(function(){
+        $('body').hide();
+        $('body').show();
+        $('#append').click(function(){
+           console.log('append');
+           //追加標籤(物件)
+           $('#output').append(abc);
+        });
+
+        //$("選擇器").on("事件名稱","要新增處理的元素",處理內容);
+        // jQuery(document).on('click','h2', function(event){
+        //    $(this).css({'color':'red', 'background-color':'gray'});
+        // });
+
+        // $('#remove').click(function(){
+        //    console.log('remove');
+        //    //刪除指定的元素
+        //    $('h2').remove();
+        // });
+        // $('#text').bind('click', function(){
+        //    console.log('text');
+        //    //讀取指定元素的文字內容
+        //    tmp = $('h1').text();
+        //    $('#output').append(tmp);
+        // });
+        // //解除讀取文字內容功能
+        // $('#text2').click(function(){
+        //    console.log('unbind');
+        //    $('#text').unbind('click');
+        // });
+
+        // jQuery('#text1').change(function(){
+        //    console.log('change');
+        //    var tmp = $(this).val();
+        //    console.log(tmp);
+        //    $('h1').text(tmp);
+        // });
+
+        // $('#attr1').click( function(){
+        //    console.log('attr1');
+        //    //讀取指定元素的文字內容
+        //    tmp = $('a').attr("href");
+        //    console.log(tmp);
+        //    $('#attr2').val(tmp);
+        // });
+
+        // jQuery('#attr3').change(function(){
+        //    console.log('change');
+        //    var tmp = $(this).val();
+        //    console.log(tmp);
+        //    $('h1').text(tmp);
+        // });
+
+        jQuery('#attr2').change(function(){
+            console.log('change');
+            var tmp = $('#attr2').val();
+            console.log(tmp);
+            $('a').attr({'href':'http://'+tmp});
+            
+         });
+
+   });
+
+</script>
+</head>
+
+<body>
+    <h1>Jquery 方法與事件</h1>
+    <p>
+      <a href="www.hinet.net">Hinet</a>
+
+    </p>
+    <input type="button" id="append" value="加入我">
+    <input type="button" id="remove" value="刪除我"><br><br>
+    <input type="button" id="text" value="讀取標題文字內容">
+    設定標題文字內容: <input id="text1" type="text"><br><br>
+    <input type="button" id="text2" value="解除讀取文字內容功能">
+
+    <input type="button" id="attr1" value="讀取屬性值">
+    <input type="button" id="attr3" value="設置屬性值"><br><br>
+     屬性值:<input id="attr2" type="text" name="">
+
+    <div id="output"></div>
+
+
+
+</body>
+
+</html>

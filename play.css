@@ -1,0 +1,519 @@
+#nav > a
+
+{
+
+display: none;
+
+}
+
+#nav > ul > li
+
+{
+
+width: 25%;
+
+height: 100%;
+
+float: left;
+
+}
+
+@media screen and (max-width:1200px){
+
+*{
+  text-align: center;
+}
+
+/* ------------------------------------------------ */
+.titlebarright,.titlebarright a{
+  height: 0px;
+  overflow: hidden;
+}
+
+
+.text{
+  width:100%;
+  }
+  .text select{
+  height:60px;
+  line-height: 55px;
+  font-size: 1.5rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #5f5f5f;
+  }
+
+ 
+
+/* ------------------------------------------------ */
+
+.fifthlist a{
+  margin-left:5px;
+  margin-right:5px;
+  text-decoration: none;
+  color: rgb(161, 133, 133);
+}
+
+  .Button:hover {
+  background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+}
+
+  .Button:active {
+  background: rgba(255, 255, 255, 0.349); 
+}
+
+.fifthlist a:hover{
+  color:rgb(82, 59, 24);
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    height: 1000px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #0af; 
+    background-image: 
+    linear-gradient(45deg,rgba(0, 0, 0, 0.514),rgba(255, 255, 255, 0.829),rgba(0, 0, 0, 0.493)),
+    url(http://source.unsplash.com/random/1024x768); 
+  }
+
+  .eleventhright a:hover
+  {
+  font-size: 20px;
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border-radius: 50px; 
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  }
+  
+  .titlebarright a:hover
+{
+font-size: 20px;
+box-shadow: rgb(0, 0, 0) 5px 5px 10px 5px;
+border-radius: 50px; 
+text-transform: uppercase;
+font-weight: 600;
+text-decoration: none;
+}
+
+  .clearfix:after { 
+    content: " ";
+    display: block; 
+    height: 0; 
+    clear: both;
+ }
+
+
+
+ .col-3:after,.col-4:after,.col-6:after{
+  content: " ";
+  display: block; 
+  height: 0; 
+  clear: both;
+ }
+
+  .titlebarright a{
+    font-weight: 700;
+    color:black;
+    display: block;
+    padding-bottom:25px; 
+    padding-top:25px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    text-align: center;
+    width: 125px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+  }
+
+  p:first-line{
+    font-size: 30px;
+    font-weight: 600;
+  }
+.titlebarleft ,.fifthlist{
+  text-align: center;
+}
+
+.second img{
+  width: 100%;
+  height: 100%;
+}
+
+img{
+  float: left;
+  width: 25%;
+  height: 25%;
+}
+
+.sixthright div {
+  margin: 6%;
+  color: rgb(0, 0, 0); 
+  font-size: 25px; 
+  line-height: 18px; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  font-family: Georgia, serif; 
+  background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(219, 219, 219) 50%, rgb(255, 255, 255) 100%); 
+  box-shadow: rgb(255, 255, 255) 5px 5px 30px 5px; 
+  
+}
+
+.eleventhright a{
+  font-size: 20px;
+  font-weight: 700;
+  color:black;
+  display: block;
+  padding-bottom:25px; 
+  padding-top:25px;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  text-align: center;
+  width: 125px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.eleventhleft{
+  text-align: center;
+}
+
+}
+
+
+
+
+@media screen and (min-width:1200px){
+
+.text{
+  height: 0;
+}
+
+
+img
+{
+opacity:0.8;
+filter:alpha(opacity=80); /* 针对 IE8 以及更早的版本 */
+}
+img:hover
+{
+opacity:1;
+filter:alpha(opacity=100); /* 针对 IE8 以及更早的版本 */
+}
+
+
+
+*{
+  height: auto;
+}
+
+body{
+  padding: 0;
+  margin:0;
+  background-image   :
+  linear-gradient(to right, rgba(0, 0, 0, 0.808) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0.829) 100%);
+}
+
+body {
+  height: 1000px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #0af; 
+  background-image: 
+  linear-gradient(45deg,rgba(0, 0, 0, 0.514),rgba(255, 255, 255, 0.829),rgba(0, 0, 0, 0.493)),
+  url(http://source.unsplash.com/random/1024x768); 
+   /* background-image: 
+  repeating-linear-gradient(-45deg ,rgba(255, 0, 0, 0.212) 0px,rgba(255, 0, 0, 0.185) 5px,transparent 5px,transparent 10px),
+  repeating-linear-gradient(45deg,rgba(0, 0, 255, 0.171) 0px,rgba(0, 0, 255, 0.185) 5px,transparent 5px,transparent 10px),
+  url(http://source.unsplash.com/random/1024x768);  */
+   /* background-image: radial-gradient(transparent,rgb(219, 190, 190)),url(http://source.unsplash.com/random/1024x768); */
+} 
+
+
+
+.titlebarright a:hover
+{
+font-size: 20px;
+box-shadow: rgb(0, 0, 0) 5px 5px 10px 5px;
+border-radius: 50px; 
+text-transform: uppercase;
+font-weight: 600;
+text-decoration: none;
+}
+
+.titlebar{
+  padding-left:50px;
+  padding-right:50px;
+  position: relative;
+}
+
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.titlebarright{
+float:right; 
+margin-right: 50px;
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(0%, -50%);
+}
+
+.titlebarright a{
+  font-weight: 700;
+  color:black;
+  float:left; 
+  display: block;
+  padding-bottom:25px; 
+  padding-top:25px;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+  text-align: center;
+  width: 125px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 20px;
+}
+
+.titlebarleft{
+  float:left; 
+  margin-left: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
+}
+
+.second{
+  width: 100%;
+}
+
+.second img {
+  width: 100%;
+  height: 500px;
+}
+
+.thirdtop {
+  text-align: center;
+  padding-left: 200px;
+  padding-right:200px;
+  margin:50px;
+}
+
+.col-6 img {
+  width:20%;
+  float:left;
+  padding-top: 0px;
+}
+
+.col-1 {
+  width: calc(100%/12*1);
+}
+.col-2 {
+  width: calc(100%/12*2);
+}
+.col-3 {
+  width: calc(100%/12*3);
+  float: left;
+}
+.col-4 {
+  width: calc(100%/12*4);
+}
+.col-5 {
+  width: calc(100%/12*5);
+}
+.col-6 {
+  width: calc(100%/12*6);
+  float:left;
+}
+.col-7 {
+  width: calc(100%/12*7);
+}
+.col-8 {
+  width: calc(100%/12*8);
+}
+.col-9 {
+  width: calc(100%/12*9);
+}
+.col-10 {
+  width: calc(100%/12*10);
+}
+.col-11 {
+  width: calc(100%/12*11);
+}
+.col-12 {
+  width: calc(100%/12*12);
+}
+.colcolor{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin:100px 0;
+}
+
+p:first-line{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.forthall{
+  text-align: center;
+  padding: 50px 25px;
+}
+
+.forthall div{
+  float:left;
+}
+
+.col-4 img{
+  width:20%;
+}
+
+.fifthall{
+  text-align: center;
+}
+
+.fifthtitle{
+  margin: 100px;
+}
+
+.fifthlist{
+  font-size: 20px;
+}
+
+.fifthlist a:hover{
+color:rgb(82, 59, 24);
+}
+
+.fifthlist a{
+  margin-left:15px;
+  margin-right:15px;
+  text-decoration: none;
+  color: rgb(161, 133, 133);
+}
+
+.fifthform {
+  padding: 100px;
+  text-align: left;
+}
+
+.fifthform img{
+  width:100%;
+}
+
+.col-3 div{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sixthall{
+  position: relative;
+  height: 100%;
+  background-color: rgba(8, 8, 8, 0.842);
+  color: rgb(179, 175, 175);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.sixthleft{
+  float:left;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-90%, -50%);
+}
+
+.sixthleft p{
+  margin:0;
+  
+}
+
+.sixthright{
+  float:right;
+}
+
+.sixthright div{
+  float:right;
+}
+
+.sixthright div {
+  margin: 6%;
+  color: rgb(0, 0, 0); 
+  font-size: 25px; 
+  line-height: 18px; 
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  font-family: Georgia, serif; 
+  background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(219, 219, 219) 50%, rgb(255, 255, 255) 100%); 
+  box-shadow: rgb(255, 255, 255) 5px 5px 30px 5px; 
+  
+}
+
+  .Button:hover {
+  background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
+}
+
+  .Button:active {
+  background: rgba(255, 255, 255, 0.349); 
+}
+
+.eleventhright a:hover
+{
+font-size: 20px;
+box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+border-radius: 50px; 
+text-transform: uppercase;
+font-weight: 600;
+text-decoration: none;
+}
+
+.eleventhleft{
+  float:left; 
+  margin-left: 50px;
+}
+
+
+.eleventhall{
+  background-color: rgb(209, 209, 209);
+  color: rgb(0, 0, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.eleventhright a{
+  font-size: 20px;
+  font-weight: 700;
+  color:black;
+  float:left; 
+  display: block;
+  padding-bottom:25px; 
+  padding-top:25px;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-decoration: none;
+  text-align: center;
+  width: 125px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.eleventhright{
+  float:right; 
+  margin-right: 50px;
+}
+
+}
